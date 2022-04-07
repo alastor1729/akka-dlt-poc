@@ -1,0 +1,44 @@
+*.class
+*.log
+
+# sbt specific
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+.bsp
+
+# Scala-IDE specific
+.scala_dependencies
+.target
+.cache
+.classpath
+.project
+.settings/
+
+# Intellij specific
+*.iml
+*.idea/
+*.idea_modules/
+
+# Scala Metals specific
+.metals/
+.bloop/
+coursier
+project/metals.sbt
+
+# Sublime specific
+*.sublime-project
+*.sublime-workspace
+
+# VS Code specific
+.vscode/
+
+# OS specific
+.DS_Store
+
+# Akka Persistence LevelDB
+leveldb/
+snapshots/
